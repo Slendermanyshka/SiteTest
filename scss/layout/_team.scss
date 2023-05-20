@@ -1,0 +1,54 @@
+.team{
+  margin-top:25px;
+}
+
+.team__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1200px;
+    margin-inline: auto;
+    margin-bottom: 50px;
+}
+.team-text-container{
+  border-top: solid 2px #D10220;
+width: 50%;
+text-align: justify;
+padding-top: 5px;
+  & p{
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+text-indent: 20px;
+text-align: justify;
+line-height: 22.4px;
+}
+}
+
+.team-img-container{
+  box-sizing: border-box;
+  width: 50%;
+  margin-inline: 15px;
+}
+
+.team-img{
+  box-sizing: border-box
+}
+.team__link button {
+  @extend .media-icon;
+  background-color: $background-color;
+
+  & svg {
+    fill: $svg-fill;
+  }
+
+  &:hover,
+  :focus {
+    background-color: $hover-color;
+  }
+
+  &:hover svg {
+    fill: $background-color;
+  }
+}

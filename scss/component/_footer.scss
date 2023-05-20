@@ -1,0 +1,100 @@
+.footer{ 
+    width: 100%;
+    background-color: #f59300;
+    display: inline-flex;
+    flex-direction: column;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.footer__innard{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+
+    width: 390px;
+    & ul{
+        padding: 0px;
+    }
+    & a{
+        @extend .normal-text;
+        text-decoration: none;
+        color: $p-textcolor;
+        font-size: 14px;
+        line-height: 171%;
+        padding-bottom: 9px;
+        transition: $animation;
+        &:hover,:focus{
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+}
+
+.footer__list{
+    display: inline-flex;
+    justify-content: center;
+    padding: 0px;
+}
+.footer__h3{
+    font-family: "Roboto",BlinkMacSystemFont,"Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer__text-slim{
+    font-size: 14px;
+    line-height: 22.4px;
+    color: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    max-width: 360px;
+    text-align: center;
+}
+.footer__link{
+    display: flex;
+    margin-right: 5px;
+    justify-content: center;
+    & button{
+        padding: 10px;
+        outline: 0;
+        border: 2px solid #e8ecee;
+        border-radius: 0;
+        transition: $animation;
+        background-color: rgba(255, 255, 255, 0.1);
+    
+    }
+    &:last-child{
+        margin: 0;
+    }
+}
+.footer__link button:hover{
+    background-color: #ca7900;
+    border-color: #b36b00;
+    color: #fff;
+    fill: #fff;
+}
+.footer__icon{
+    fill: #fff;
+}
+
+.footer__bottom{
+    display: flex;
+    background-color: #c97800;;
+    justify-content: center;
+    padding-block: 20px;
+}
+.footer_bottom-link{
+    color: #fff;
+    &:hover{
+        color: #f1ed00;
+        transition: $animation;
+    }
+}

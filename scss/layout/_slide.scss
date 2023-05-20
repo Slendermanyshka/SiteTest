@@ -1,0 +1,38 @@
+.slides{
+    background-color: #53354a;
+    margin-bottom: 70px;
+    height: 370px; overflow: hidden;
+}
+
+.slide{
+    width: 100%; 
+    display: flex;
+
+}
+.slide-img-container{
+    width: 35%;
+
+}
+.slide-img{
+    justify-self: center;
+}
+.slide-text-container{
+    width: 65%;
+    padding-inline: 5%;
+    padding-block: 70px;
+    
+}
+.slide-text{
+    color: #fff;
+    font: italic 22px "Cardo", Georgia, "Times New Roman", serif;
+    margin-bottom: 25px;
+}
+.author{
+    color: #fff;
+display: block;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+margin-top: 30px;
+text-transform: uppercase;
+}

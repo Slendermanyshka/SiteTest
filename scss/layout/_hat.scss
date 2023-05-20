@@ -1,0 +1,51 @@
+.hat{
+    
+    background-color: #2F303A;
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: url(../images/4.jpg);
+    & h1{
+        @extend .h-title;
+        font-size: 48px;
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: $background-color;
+        margin-top: 0px;
+    }
+    
+    & h3{
+        font-family: "Raleway", sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        padding-inline: 50px;
+        text-align: center;
+        color: white
+    }
+}
+.hat button{
+    @extend .normal-text; 
+    @extend .button;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    line-height: 187%;
+    border: none;
+    border-radius: $button-radius;
+    letter-spacing: 0.06em;
+    color: $background-color;
+    background: $hover-color;
+    transition: $animation;
+    
+    margin: auto;
+    display: block;
+
+    &:hover,:focus {
+        background: $mainbutton-hover;
+    }
+
+    
+}
