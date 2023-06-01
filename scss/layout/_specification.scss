@@ -41,20 +41,15 @@
     }
 }
 .specifications__item:nth-child(1)::before{
+    
     background-image: url(../images/icons/separate_icons/tools.svg);
 }
 .specifications__item:nth-child(2)::before{
-    background-image: url(../images/icons/separate_icons/desktop.svg);
+    background-size:15%;
+    background-image: url(../images/icons/wood1.svg);
+    
 }
 .specifications__item:nth-child(3)::before{
     background-image: url(../images/icons/separate_icons/lightbulb.svg);
 }
-.specifications__item:nth-child(4)::before{
-    background-image: url(../images/icons/separate_icons/genius.svg);
-}
-.specifications__item:nth-child(5)::before{
-    background-image: url(../images/icons/separate_icons/briefcase.svg);
-}
-.specifications__item:nth-child(6)::before{
-    background-image: url(../images/icons/separate_icons/download.svg);
-}
+
