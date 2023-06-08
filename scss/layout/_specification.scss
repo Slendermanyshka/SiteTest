@@ -36,20 +36,25 @@
         background-color: #fff;
         background-position: center;
         background-repeat: no-repeat;
-        fill: #ca7900;
-        color: #ca7900;
+        fill: #D10220;
+        color: #D10220;
     }
 }
 .specifications__item:nth-child(1)::before{
-    
     background-image: url(../images/icons/separate_icons/tools.svg);
 }
 .specifications__item:nth-child(2)::before{
-    background-size:15%;
-    background-image: url(../images/icons/wood1.svg);
-    
+    background-image: url(../images/icons/separate_icons/desktop.svg);
 }
 .specifications__item:nth-child(3)::before{
     background-image: url(../images/icons/separate_icons/lightbulb.svg);
 }
-
+.specifications__item:nth-child(4)::before{
+    background-image: url(../images/icons/separate_icons/genius.svg);
+}
+.specifications__item:nth-child(5)::before{
+    background-image: url(../images/icons/separate_icons/briefcase.svg);
+}
+.specifications__item:nth-child(6)::before{
+    background-image: url(../images/icons/separate_icons/download.svg);
+}
