@@ -115,3 +115,11 @@ margin-bottom: 60px;
     padding-left: 100px;
   }
 }
+.section{
+  max-width: 1280px;
+  
+  &-centered{
+  margin-left: auto;
+  margin-right: auto;
+}
+}

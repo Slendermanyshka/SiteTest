@@ -64,7 +64,7 @@ color: #ffffff;
 font-size: 20px;
 font-weight: 400;
 padding: 15px 50px;
-background-color: #D10220;
+background-color: #e79600;
 border: none;
 transition: 0.3s;
 }
@@ -75,7 +75,7 @@ transition: 0.3s;
     display: flex;
     margin-right: 5px;
     justify-content: center;
-    background-color: #D10220;   
+    background-color: #e79600;   
     
     &:last-child{
         margin: 0;
@@ -86,7 +86,7 @@ transition: 0.3s;
             justify-content: center;
             width: 40px;
             height: 40px;
-            background-color: #D10220;
+            background-color: #e79600;
             padding: 10px;
             outline: 0;
             border: 2px solid #e8ecee;
@@ -94,8 +94,8 @@ transition: 0.3s;
             transition: $animation;
         
     &:hover{
-        background-color: #e84545;
-        border-color: #e84545;
+        background-color: #ffa600;
+        border-color: #be7c00;
         color: #fff;
         fill: #fff;
     }
