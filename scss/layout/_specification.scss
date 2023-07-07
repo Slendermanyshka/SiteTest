@@ -26,7 +26,18 @@
     justify-content: center;
     
 }
-
+.specifications__icon{
+    width: 370px;
+        display: block;
+        content: "";
+        height: 135px;
+        background-color: #fff;
+        background-position: center;
+        background-repeat: no-repeat;
+        fill: #D10220;
+        color: #D10220;
+    
+}
 .specifications__item{    
     width: 370px;
     &::before{
@@ -39,22 +50,14 @@
         fill: #D10220;
         color: #D10220;
     }
-}
+}/*
 .specifications__item:nth-child(1)::before{
     background-image: url(../images/icons/separate_icons/tools.svg);
 }
 .specifications__item:nth-child(2)::before{
-    background-image: url(../images/icons/separate_icons/desktop.svg);
+    background-image: url(../images/icons/derevo1.svg);
 }
 .specifications__item:nth-child(3)::before{
-    background-image: url(../images/icons/separate_icons/lightbulb.svg);
-}
-.specifications__item:nth-child(4)::before{
-    background-image: url(../images/icons/separate_icons/genius.svg);
-}
-.specifications__item:nth-child(5)::before{
-    background-image: url(../images/icons/separate_icons/briefcase.svg);
-}
-.specifications__item:nth-child(6)::before{
-    background-image: url(../images/icons/separate_icons/download.svg);
-}
+    background-image: url(../images/icons/wood1.svg);
+}*/
+
